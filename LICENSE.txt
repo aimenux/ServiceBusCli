@@ -1,0 +1,40 @@
+﻿LICENSE
+
+This software is provided under a freemium license.
+
+1. Grant of License
+
+You are granted a non-exclusive, non-transferable, royalty-free license to use this software for personal or commercial purposes.
+
+2. Restrictions
+
+No Modification: You may not modify, adapt, or create derivative works of the software.
+No Distribution: You may not distribute, sublicense, rent, lease, loan, sell, or otherwise transfer the software to any third party.
+No Reverse Engineering: You may not decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code of the software.
+No Commercial Use of Modified Versions: If you are permitted to modify the software under a separate agreement, you may not use any modified versions for commercial purposes.
+
+3. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   
+
+4. Termination
+
+This license shall automatically terminate upon your breach of any of these terms.
+
+5. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction].
+
+6. Severability
+
+If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall remain in full force and effect. 
+
+7. Entire Agreement
+
+This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous communications, representations, or agreements, whether oral or written. 
+
+8. Contact
+
+For any questions regarding this license, please contact [aimenux][@][gmail][.][com].
+
+By using this software, you acknowledge that you have read, understood, and agree to be bound by the terms of this License Agreement.

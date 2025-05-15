@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/vpre/ServiceBusCli)](https://www.nuget.org/packages/ServiceBusCli/)
+
 # ServiceBusCli
 ```
 A net global tool helping to interact with azure service bus

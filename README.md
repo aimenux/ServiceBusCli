@@ -5,10 +5,12 @@
 A net global tool helping to interact with azure service bus
 ```
 
-> In this repo, i m building a cli tool that allows to interact with azure service bus.
+### Description
+
+> In this repo, i m building a [cli tool](https://github.com/aimenux/ServiceBusCli) that allows to interact with azure service bus.
 >
 > The cli tool provide commands to :
-> 
+>
 ><details>
 >
 ><summary>List queues</summary>
@@ -19,7 +21,7 @@ A net global tool helping to interact with azure service bus
 >#### 📌 list all queues sorted by last access date asc : `sb q -c dev -a -s LastAccessDate:asc`
 >#### 📌 list all queues sorted by size in megabytes dsc : `sb q -c dev -a -s SizeInMegabytes:dsc`
 >#### 📌 list all queues sorted by active messages dsc : `sb q -c dev -a -s ActiveMessages:dsc`
-> 
+>
 ></details>
 >
 ><details>
@@ -171,21 +173,72 @@ A net global tool helping to interact with azure service bus
 >#### 📌 export filtered dead letter messages by sequence numbers : `sb dlq -c dev -n some-queue-name x -f 100-200`
 >
 ></details>
-> 
+>
+
+### Configuration
+
+> The tool is configured using the file `appsettings.json` located in the user's home directory. The command `sb -s` allows to display the exact path for `appsettings.json` file.
+>
+><details>
+>
+><summary>Connections</summary>
+>
+>#### 🛠️ configure a connection that use connection string : `{ "ConnectionName": "dev", "ConnectionString": "Endpoint=sb://dev.servicebus.windows.net/;SharedAccessKeyName=keyname;SharedAccessKey=keyvalue" }`
+>#### 🛠️ configure a connection that use default azure credentials : `{ "ConnectionName": "uat", "FullyQualifiedNamespace": "uat.servicebus.windows.net", "UseDefaultCredentials": true }`
+>#### 🛠️ configure a connection that use interactive azure credentials : `{ "ConnectionName": "prd", "FullyQualifiedNamespace": "prd.servicebus.windows.net" }`
+>
+></details>
+>
+><details>
+>
+><summary>MaxItems</summary>
+>
+>#### 🛠️ configure max items (used for display commands) : `{ "MaxItems": 50 }`
+>
+></details>
+>
+><details>
+>
+><summary>WorkingDirectory</summary>
+>
+>#### 🛠️ configure working directory (used for export commands) : `{ "WorkingDirectory": "C:\\ServiceBusCli" }`
+>
+></details>
+>
+><details>
+>
+><summary>ServiceBusThresholds</summary>
+>
+>#### 🛠️ configure min size percentage to highlight big queues : `{ "Thresholds": { "SizePercentage": 70 } }`
+>#### 🛠️ configure min last access days to highlight useless queues : `{ "Thresholds": { "LastAccessDays": 30 } }`
+>
+></details>
+>
+><details>
+>
+><summary>CacheExpirationInDays</summary>
+>
+>#### 🛠️ configure cache expiration in days (used for caching interactive connections) : `{ "CacheExpirationInDays": 30 }`
+>
+></details>
+>
+
+### Download
+
 > To install the tool from [nuget source](https://www.nuget.org/packages/ServiceBusCli), type command :
 > - For stable version : `dotnet tool install -g ServiceBusCli --ignore-failed-sources`
-> - For prerelease version : `dotnet tool install -g ServiceBusCli --version "*-*" --ignore-failed-sources`
+> - For prerelease version : `dotnet tool install -g ServiceBusCli --prerelease --ignore-failed-sources`
 >
 > To update the tool, type command :
 > - `dotnet tool update -g ServiceBusCli`
 >
-> 
-> To uninstall global tool, type command :
+>
+> To uninstall the tool, type command :
 > - `dotnet tool uninstall -g ServiceBusCli`
 >
 >
 
-Notes :
+### Notes
 >
 > 🚧 This tool is still under development. 🚧
 >

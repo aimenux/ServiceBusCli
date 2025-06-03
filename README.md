@@ -65,8 +65,9 @@ A net global tool helping to interact with azure service bus
 >
 >#### 📌 send single message to queue : `sb q -c dev -n some-queue-name s -p some-message-json-file`
 >#### 📌 send single message to queue after some delay in minutes : `sb q -c dev -n some-queue-name s -p some-message-json-file --delay 5`
->#### 📌 send multiple message to queue : `sb q -c dev -n some-queue-name s -p some-message-json-file --count 10`
->#### 📌 send multiple message to queue after some delay in minutes : `sb q -c dev -n some-queue-name s -p some-message-json-file --count 10 --delay 5`
+>#### 📌 send multiple messages to queue : `sb q -c dev -n some-queue-name s -p some-message-json-file --count 10`
+>#### 📌 send multiple messages to queue after some delay in minutes : `sb q -c dev -n some-queue-name s -p some-message-json-file --count 10 --delay 5`
+>#### 📌 send multiple messages to queue from directory after some delay in minutes : `sb q -c dev -n some-queue-name s -p some-messages-json-directory --delay 5`
 >
 ></details>
 >
@@ -174,10 +175,22 @@ A net global tool helping to interact with azure service bus
 >
 ></details>
 >
+><details>
+>
+><summary>Compare queues between connections</summary>
+>
+>#### 📌 compare all queues : `sb q compare`
+>#### 📌 compare filtered queues : `sb q compare -f order`
+>#### 📌 compare only queues with issues : `sb q compare --issues`
+>#### 📌 compare only queues with some name : `sb q compare -n some-queue-name`
+>
+></details>
 
 ### Configuration
 
-> The tool is configured using the file `appsettings.json` located in the user's home directory. The command `sb -s` allows to display the exact path for `appsettings.json` file.
+> The tool is configured using the file `appsettings.json` located in the user's home directory.
+> 
+> The command `sb -s` allows to display the exact path for the configuration file.
 >
 ><details>
 >

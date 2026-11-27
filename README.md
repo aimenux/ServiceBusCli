@@ -185,6 +185,8 @@ A net global tool helping to interact with azure service bus
 >#### 📌 compare only queues with some name : `sb q compare -n some-queue-name`
 >
 ></details>
+>
+> 💡 Commands `s` (send), `r` (replay) and `p` (purge) modify data and may be irreversible. Double-check the connection name (`-c`), try them on a non-production environment first, and export (`x`) before purging.
 
 ### Configuration
 

@@ -251,10 +251,18 @@ A net global tool helping to interact with azure service bus
 >
 >
 
+### Security
+
+> To report a vulnerability, please contact the author privately (see [LICENSE](LICENSE.txt)) rather than opening a public issue. No response time or fix is guaranteed.
+
+### License
+
+> ServiceBusCli is free to use, for personal and commercial purposes, under the terms of the [LICENSE](LICENSE.txt). Using the tool means accepting these terms.
+
 ### Notes
 >
 > 🚧 This tool is still under development. 🚧
 >
-> ⚠️ This tool is not open source, it could be in the future, but it's free to use. ⚠️
+> ✅ This tool is free to use today. It is not open source, and its source code is not available. Terms for future versions may evolve, and versions you have already installed remain usable under the license.
 >
-> 📢 This tool is provided as is, without any warranty or support. Use it at your own risk. 📢
+> 📢 This tool is provided "as is", without warranty or support, including regarding security. Use it at your own risk.

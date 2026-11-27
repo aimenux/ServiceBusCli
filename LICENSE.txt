@@ -1,40 +1,98 @@
-﻿LICENSE
+﻿ServiceBusCli - Free Proprietary License
 
-This software is provided under a freemium license.
+Copyright (c) 2025-2026 Aimenux. All rights reserved.
 
-1. Grant of License
+This license is a legal agreement between the author of the software ("Licensor") and any person or entity that installs or uses it ("Licensee"). The software is free of charge. It is NOT open source.
 
-You are granted a non-exclusive, non-transferable, royalty-free license to use this software for personal or commercial purposes.
 
-2. Restrictions
+1. DEFINITIONS
 
-No Modification: You may not modify, adapt, or create derivative works of the software.
-No Distribution: You may not distribute, sublicense, rent, lease, loan, sell, or otherwise transfer the software to any third party.
-No Reverse Engineering: You may not decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code of the software.
-No Commercial Use of Modified Versions: If you are permitted to modify the software under a separate agreement, you may not use any modified versions for commercial purposes.
+"Software" means ServiceBusCli, distributed in binary form (including through the NuGet package "ServiceBusCli"), together with its documentation and any updates.
 
-3. Disclaimer of Warranty
+"Authorized Users" means the Licensee's employees, contractors and affiliated companies, when acting for the Licensee.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.   
 
-4. Termination
+2. GRANT OF LICENSE
 
-This license shall automatically terminate upon your breach of any of these terms.
+Subject to this Agreement, the Licensor grants the Licensee a non-exclusive, non-transferable, worldwide, royalty-free license to install and use the Software, on any number of machines, for personal or commercial internal purposes, by the Licensee and its Authorized Users.
 
-5. Governing Law
 
-This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction].
+3. RESTRICTIONS
 
-6. Severability
+The Licensee shall not:
+a) modify, adapt, translate or create derivative works of the Software;
+b) distribute, sublicense, sell, rent, lease, lend or otherwise make the Software available to any third party, other than Authorized Users, or offer it as a hosted or managed service;
+c) decompile, disassemble, reverse engineer or otherwise attempt to derive the source code of the Software, without the prior written agreement of the Licensor, except to the extent that mandatory law expressly permits it despite this restriction;
+d) remove or alter any copyright, license or proprietary notice;
+e) use, or allow others to use, any automated tool, script or artificial intelligence system (including AI agents and coding assistants) to perform any of the acts prohibited in (c), or to analyze the Software in order to reproduce its functionality or generate equivalent code, and shall not provide the Software, its binaries or its decompiled output as input to such systems for these purposes, without the prior written agreement of the Licensor.
 
-If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be struck and the remaining provisions shall remain in full force and effect. 
 
-7. Entire Agreement
+4. OWNERSHIP AND NO SOURCE CODE
 
-This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous communications, representations, or agreements, whether oral or written. 
+The Software is licensed, not sold. The Licensor retains all rights, title and interest in it. The source code is not provided. The Licensor has no obligation to disclose, deposit (escrow) or publish it under any license. Any statement that the Software might become open source in the future is not a commitment and creates no right for the Licensee.
 
-8. Contact
 
-For any questions regarding this license, please contact [aimenux][@][gmail][.][com].
+5. FREE OF CHARGE, NO SUPPORT
 
-By using this software, you acknowledge that you have read, understood, and agree to be bound by the terms of this License Agreement.
+The Software is provided free of charge. The Licensor has no obligation to provide support, maintenance, updates, fixes or compatibility with any current or future version of Azure or any other third-party service, and may change, suspend or withdraw the Software or any version at any time.
+
+This license applies to the version of the Software obtained by the Licensee. The Licensor may release later versions under different terms, including paid terms, and may end the free license for later versions or updates. Versions already obtained remain usable under this Agreement.
+
+
+6. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AVAILABILITY AND NON-INFRINGEMENT.
+
+In particular, the Licensor does not warrant that the Software is free of errors, bugs or security vulnerabilities, that it has been security audited, or that it will meet the Licensee's security, compliance or regulatory requirements. The Licensee is solely responsible for assessing whether the Software is suitable and secure for its environment before using it.
+
+
+7. ACKNOWLEDGMENT OF RISKS
+
+The Licensee acknowledges that the Software can send, replay, purge, export and otherwise act on messages and queues of Azure Service Bus, and that such actions may be irreversible. The Licensee is solely responsible for:
+a) checking the target connection and environment before running any command;
+b) testing on a non-production environment first and exporting or backing up data before any purge or replay;
+c) protecting credentials. Connection strings configured in the Software's configuration file are stored in clear text; the Licensee should prefer Azure identity-based authentication and apply least-privilege access;
+d) the lawfulness of the data it processes with the Software.
+
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGE, NOR FOR ANY LOSS OR CORRUPTION OF DATA OR MESSAGES, LOSS OF PROFITS, REVENUE OR BUSINESS, BUSINESS INTERRUPTION, SECURITY INCIDENT OR DATA BREACH, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE OR INABILITY TO USE, WHETHER IN CONTRACT, TORT OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE AMOUNT PAID FOR THE SOFTWARE, WHICH IS ZERO.
+
+Nothing in this Agreement excludes or limits liability that cannot be excluded or limited under applicable law, such as liability for intentional misconduct, gross negligence or bodily injury.
+
+
+9. LICENSEE'S RESPONSIBILITY
+
+The Licensee is responsible for its use of the Software, and shall indemnify the Licensor against third-party claims arising from that use or from the Licensee's breach of this Agreement, to the extent permitted by applicable law.
+
+
+10. THIRD-PARTY COMPONENTS
+
+The Software may include or depend on third-party components, which remain subject to their own licenses. Their notices are available in the package or on request.
+
+
+11. TERM AND TERMINATION
+
+This Agreement applies as long as the Licensee uses the Software. It terminates automatically upon the Licensee's breach of any of its terms, and the Licensee must then stop using the Software and delete all copies. Sections 3, 4, 6, 7, 8, 9, 12 and 13 survive termination.
+
+
+12. GOVERNING LAW AND JURISDICTION
+
+This Agreement is governed by French law. Any dispute shall be brought before the competent French courts, subject to mandatory rules of jurisdiction.
+
+
+13. SECURITY REPORTS AND CONTACT
+
+Suspected vulnerabilities should be reported privately to the contact below, without public disclosure before a reasonable delay. The Licensor makes no commitment on response time or on fixing them.
+
+Contact: [aimenux][@][gmail][.][com]
+
+
+14. GENERAL
+
+If any provision is held invalid or unenforceable, it is limited to the minimum extent necessary and the remaining provisions remain in force. A failure to enforce a right is not a waiver of it. This Agreement is the entire agreement for the Software and supersedes prior communications on this subject, except that a written agreement signed by the Licensor and the Licensee prevails over it in case of conflict.
+
+By installing or using the Software, the Licensee confirms that it has read and accepts this Agreement.
